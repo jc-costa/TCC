@@ -26,7 +26,7 @@ points(N)
 #plot the lines betwen the points in only one plot
 def plot_lines(N):
     for i in range(N):
-        plt.plot([points_1[i][0], points_2[i][0]], [points_1[i][1], points_2[i][1]], 'r')
+        plt.plot([points_1[i][0], points_2[i][0]], [points_1[i][1], points_2[i][1]], linestyle='-', color='b')
     plt.show()
 
 plot_lines(N)
